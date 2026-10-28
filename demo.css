@@ -1,0 +1,37 @@
+.demo-cinta,
+.cinta {
+  margin: 0;
+  padding: 10px 16px;
+  background: #3e4434;
+  color: #fbf9f4;
+  font-family: Outfit, "Segoe UI", sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.demo-cinta a,
+.cinta a {
+  color: #f3edd8;
+  font-weight: 600;
+}
+
+.cinta {
+  position: sticky;
+  top: 0;
+  z-index: 6;
+}
+
+.sheet {
+  top: 48px;
+}
+
+a.btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.elige-obra {
+  margin-top: 8px;
+}

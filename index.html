@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#8e9367">
+  <meta name="robots" content="noindex">
+  <title>Recreo · Espacio Terapéutico</title>
+  <meta name="description" content="Recreo, espacio terapéutico para niños y adolescentes en San Martín 36, San Nicolás de los Arroyos. Psicología, fonoaudiología, psicopedagogía, terapia ocupacional, audiometrías y talleres.">
+  <meta property="og:title" content="Recreo · Espacio Terapéutico">
+  <meta property="og:description" content="Psicología, fonoaudiología, psicopedagogía, terapia ocupacional, audiometrías y talleres en San Nicolás de los Arroyos.">
+  <meta property="og:image" content="img/logo.png">
+  <link rel="icon" href="img/cerebro.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Outfit:wght@400;500;600&family=Playwrite+AR:wght@300;400&display=swap">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="demo.css">
+  <script src="config.js"></script>
+</head>
+<body>
+  <p class="demo-cinta">Versión demo para mostrar. Los turnos no entran en la agenda real. <a href="agenda.html">Ver la agenda</a> · clave 123456</p>
+  <svg width="0" height="0" class="oculto" aria-hidden="true">
+    <symbol id="i-wsp" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 0 0-8.5 15l-1.4 5.1 5.24-1.37A9.93 9.93 0 1 0 12.04 2Zm0 18.1a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.1.82.83-3.03-.2-.31a8.18 8.18 0 1 1 6.95 3.85Zm4.5-6.13c-.25-.12-1.46-.72-1.69-.8-.23-.09-.39-.13-.55.12-.16.24-.64.8-.78.96-.14.17-.29.19-.53.06a6.7 6.7 0 0 1-3.32-2.9c-.25-.43.25-.4.72-1.33.08-.16.04-.3-.02-.43-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 0 0-.65.3 2.74 2.74 0 0 0-.86 2.04 4.76 4.76 0 0 0 1 2.53c.12.16 1.7 2.6 4.13 3.65 1.54.66 2.14.72 2.9.6.47-.07 1.46-.6 1.66-1.17.21-.58.21-1.07.15-1.17-.06-.11-.22-.17-.46-.29Z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r=".6" fill="currentColor"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.6" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-avion" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M21 3 3 10.5l7 2.5m11-10-11 10m11-10-4.5 17-6.5-7"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/></g></symbol>
+  </svg>
+
+  <header class="barra">
+    <a class="marca" href="#inicio" aria-label="Recreo, inicio">
+      <img src="img/cerebro.png" alt="" width="44" height="47">
+      <span>RE<b>CREO</b></span>
+    </a>
+    <nav class="menu" id="menu">
+      <a href="#areas">Áreas</a>
+      <a href="#talleres">Talleres</a>
+      <a href="#turnos">Turnos</a>
+      <a href="#donde">Dónde estamos</a>
+    </nav>
+    <a class="boton boton-chico" data-turnos href="#turnos">
+      <svg><use href="#i-cal"/></svg>Pedir turno
+    </a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="cuadricula" aria-hidden="true"></div>
+      <div class="hero-texto">
+        <p class="manuscrita">Espacio Terapéutico</p>
+        <h1>Un lugar para <em>volver a crear</em> jugando.</h1>
+        <p class="bajada">Acompañamos a niños, niñas y adolescentes, y a sus familias, con un equipo de psicología, fonoaudiología, psicopedagogía y terapia ocupacional en San Nicolás de los Arroyos.</p>
+        <div class="acciones">
+          <a class="boton" data-turnos href="#turnos"><svg><use href="#i-cal"/></svg>Sacar turno</a>
+          <a class="boton boton-wsp" data-wsp href="#" target="_blank" rel="noopener"><svg><use href="#i-wsp"/></svg>Escribinos por WhatsApp</a>
+        </div>
+      </div>
+      <figure class="hero-logo">
+        <img class="cerebro" src="img/cerebro.png" alt="" width="660" height="700">
+        <img class="nombre" src="img/nombre.png" alt="Recreo, Espacio Terapéutico" width="900" height="340">
+      </figure>
+    </section>
+
+    <div class="banda">
+      <svg class="hilo" viewBox="0 0 220 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 26c30 0 40-8 58-8 16 0 14 18 2 16-14-3-4-22 14-20 30 4 50 14 146 6"/></svg>
+      <a href="#donde" class="banda-dir">
+        <svg><use href="#i-pin"/></svg>
+        <span><strong>SAN MARTÍN 36</strong><small>SAN NICOLÁS DE LOS ARROYOS</small></span>
+      </a>
+      <svg class="hilo espejo" viewBox="0 0 220 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 26c30 0 40-8 58-8 16 0 14 18 2 16-14-3-4-22 14-20 30 4 50 14 146 6"/></svg>
+    </div>
+
+    <section class="seccion" id="areas">
+      <header class="titulo">
+        <p class="manuscrita">lo que hacemos</p>
+        <h2>Áreas de trabajo</h2>
+        <p>Cada niño llega con su historia. Miramos el todo y armamos el camino con la familia y la escuela.</p>
+      </header>
+      <div class="areas">
+        <article class="area">
+          <svg class="icono" viewBox="0 0 64 64"><path d="M32 54V40c-10 0-18-7-18-17a18 18 0 0 1 36 0c0 4-1 7-3 10l3 7h-6v6c0 2-2 3-4 3h-8"/><circle cx="31" cy="22" r="5"/><path d="M31 27c2 4 0 7-3 8"/></svg>
+          <h3>Psicología</h3>
+          <p>Un espacio para poner en palabras y en juego lo que les pasa: emociones, vínculos, miedos y cambios.</p>
+        </article>
+        <article class="area">
+          <svg class="icono" viewBox="0 0 64 64"><path d="M14 40c-4-4-4-12 0-16h8l12-10v36L22 40Z"/><path d="M42 24c3 2 3 14 0 16M48 18c7 5 7 23 0 28"/></svg>
+          <h3>Fonoaudiología</h3>
+          <p>Lenguaje, habla, voz y comunicación. Para que cada chico encuentre su manera de decir.</p>
+        </article>
+        <article class="area">
+          <svg class="icono" viewBox="0 0 64 64"><path d="M10 16c8-3 15-3 22 2 7-5 14-5 22-2v32c-8-3-15-3-22 2-7-5-14-5-22-2Z"/><path d="M32 18v32"/><path d="M17 26c3-1 6-1 9 1M17 33c3-1 6-1 9 1M38 26c3-2 6-2 9-1"/></svg>
+          <h3>Psicopedagogía</h3>
+          <p>Cómo aprende cada uno. Acompañamos la lectura, la escritura, la atención y la vida en la escuela.</p>
+        </article>
+        <article class="area">
+          <svg class="icono" viewBox="0 0 64 64"><path d="M22 52V30c0-3 4-3 4 0v-12c0-3 4-3 4 0v-4c0-3 4-3 4 0v4c0-3 4-3 4 0v12c0-3 4-3 4 0v8c0 8-4 14-10 14Z"/><path d="M22 34c-4-4-8-2-6 2l6 10"/></svg>
+          <h3>Terapia ocupacional</h3>
+          <p>Juego, autonomía y procesamiento sensorial para que las cosas de todos los días sean más fáciles.</p>
+        </article>
+        <article class="area">
+          <svg class="icono" viewBox="0 0 64 64"><path d="M22 44c0 6 4 10 9 10s7-4 7-8c0-6 8-8 8-20a14 14 0 0 0-28 0"/><path d="M26 26a6 6 0 0 1 12 0c0 4-4 5-4 9"/><circle cx="34" cy="40" r="1.5"/></svg>
+          <h3>Audiometrías</h3>
+          <p>Evaluamos la audición en el mismo espacio, con tiempo y paciencia para los más chicos.</p>
+        </article>
+        <article class="area" id="talleres">
+          <svg class="icono" viewBox="0 0 64 64"><path d="m44 12-28 12 12 4m16-16-16 16m16-16-6 34-10-18"/><path d="M28 28c-2 6-8 8-12 14-3 5 0 11 6 10" stroke-dasharray="3 5"/></svg>
+          <h3>Talleres</h3>
+          <p>Encuentros grupales para crear, compartir y aprender con otros. Mirá los que están abiertos en Instagram.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="seccion seccion-turnos" id="turnos">
+      <div class="cuadricula cuadricula-der" aria-hidden="true"></div>
+      <header class="titulo">
+        <p class="manuscrita">sin vueltas</p>
+        <h2>Sacá turno en tres pasos</h2>
+        <p>Es el mismo lugar al que te lleva el QR del consultorio.</p>
+      </header>
+      <ol class="pasos">
+        <li><span>1</span><h3>Entrá a la agenda</h3><p>Tocá “Ir a la agenda”. Se abre desde el celular o la compu.</p></li>
+        <li><span>2</span><h3>Dejá los datos</h3><p>Nombre, apellido, DNI y obra social del niño o adolescente.</p></li>
+        <li><span>3</span><h3>Elegí el horario</h3><p>Ves los horarios libres y reservás el que mejor les quede.</p></li>
+      </ol>
+      <div class="acciones centro">
+        <a class="boton boton-grande" data-turnos href="#"><svg><use href="#i-avion"/></svg>Ir a la agenda</a>
+        <a class="enlace" data-wsp href="#" target="_blank" rel="noopener">¿Tenés dudas antes? Escribinos</a>
+      </div>
+    </section>
+
+    <section class="seccion" id="espacio">
+      <header class="titulo">
+        <p class="manuscrita">nuestro espacio</p>
+        <h2>Pasá a conocernos</h2>
+        <p>Rinconcitos, actividades, festejos y el equipo, todo en nuestro Instagram.</p>
+      </header>
+      <div class="destacados">
+        <a data-ig href="#" target="_blank" rel="noopener"><i class="d1"></i><span>Rinconcitos</span></a>
+        <a data-ig href="#" target="_blank" rel="noopener"><i class="d2"></i><span>Equipo</span></a>
+        <a data-ig href="#" target="_blank" rel="noopener"><i class="d3"></i><span>Talleres</span></a>
+        <a data-ig href="#" target="_blank" rel="noopener"><i class="d4"></i><span>Actividades</span></a>
+        <a data-ig href="#" target="_blank" rel="noopener"><i class="d5"></i><span>Festejos</span></a>
+        <a data-ig href="#" target="_blank" rel="noopener"><i class="d6"></i><span>Turnos</span></a>
+      </div>
+      <div class="acciones centro">
+        <a class="boton boton-claro" data-ig href="#" target="_blank" rel="noopener"><svg><use href="#i-ig"/></svg>@re_creosn</a>
+      </div>
+    </section>
+
+    <section class="seccion donde" id="donde">
+      <div class="donde-texto">
+        <p class="manuscrita">te esperamos</p>
+        <h2>San Martín 36</h2>
+        <p>San Nicolás de los Arroyos, Buenos Aires.</p>
+        <p>Atendemos con turno. Si es la primera vez, escribinos y te contamos cómo empezar.</p>
+        <div class="acciones">
+          <a class="boton boton-wsp" data-wsp href="#" target="_blank" rel="noopener"><svg><use href="#i-wsp"/></svg>WhatsApp</a>
+          <a class="boton boton-claro" href="https://www.google.com/maps/search/?api=1&query=San+Mart%C3%ADn+36%2C+San+Nicol%C3%A1s+de+los+Arroyos" target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg>Cómo llegar</a>
+        </div>
+      </div>
+      <iframe class="mapa" title="Mapa de Recreo, San Martín 36" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=San%20Mart%C3%ADn%2036%2C%20San%20Nicol%C3%A1s%20de%20los%20Arroyos%2C%20Buenos%20Aires&z=16&output=embed"></iframe>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <img src="img/logo.png" alt="Recreo, Espacio Terapéutico" width="160" height="182">
+    <p>Psicología · Fonoaudiología · Psicopedagogía · Terapia ocupacional · Audiometrías · Talleres</p>
+    <div class="redes">
+      <a data-wsp href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><svg><use href="#i-wsp"/></svg></a>
+      <a data-ig href="#" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
+    </div>
+    <small>© <span id="anio"></span> Recreo · San Martín 36, San Nicolás de los Arroyos</small>
+  </footer>
+
+  <dialog class="aviso" id="aviso">
+    <img src="img/cerebro.png" alt="" width="90" height="95">
+    <h3>La agenda no está disponible ahora</h3>
+    <p>Escribinos por WhatsApp y te damos el turno por ahí.</p>
+    <a class="boton boton-wsp" data-wsp href="#" target="_blank" rel="noopener"><svg><use href="#i-wsp"/></svg>Escribinos por WhatsApp</a>
+    <button class="enlace" type="button" data-cerrar>Cerrar</button>
+  </dialog>
+
+  <a class="flotante" data-wsp href="#" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+    <svg><use href="#i-wsp"/></svg>
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>
